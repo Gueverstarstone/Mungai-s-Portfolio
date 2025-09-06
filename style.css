@@ -9,8 +9,7 @@
 
 body{
   background-color: #1f242d;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://plus.unsplash.com/premium_photo-1720287601300-cf423c3d6760?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: cover;
+
 }
 
 a{
@@ -25,7 +24,6 @@ a{
   width: 100%;
   padding: 25px 9%;
   display: flex;
-  
   justify-content: space-between;
   align-items: center;
   z-index: 100;
@@ -34,30 +32,90 @@ a{
 .navbar .logo{
   font-size: 30px;
   font-weight: bolder;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.navbar .logo:hover{
-  color: rgb(218, 143, 143);
 }
 
 .navbar ul{
   display: flex;
-  gap: 35px;
 }
 
 .navbar ul li{
   list-style: none;
   margin-left: 35px;
-  transition: 1s;
-  border: 2px solid rgb(5, 70, 92);
-  padding: 5px;
-  border-radius: 5px;
-  border-width: 1px;
 }
 
-.navbar ul li:hover{
-  background-color: rgb(100, 103, 105);
-  color: steelblue;
+.navbar ul li a{
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbar ul li a:hover,
+.navbar ul li.active a{
+  color: rgb(9, 93, 172);
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 9% 0;
+  color: white;
+}
+
+.content-info h1{
+  font-size: 55px;
+}
+
+.content-info h2{
+  font-size: 32px;
+  margin-top: -10px;
+}
+
+.content-info p{
+  font-size: 16px;
+  margin: 10px 0 25px;
+}
+
+.content-info .main-btn{
+  display: flex;
+  align-items: center;
+}
+
+.but-on{
+  display: inline-block;
+  padding: 10px 30px;
+  background: rgb(9, 93, 172);
+  border: 2px solid rgb(9, 93, 172);
+  border-radius: 40px;
+  box-shadow: 0 0  10px rgb(9, 93, 172);
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f242d;
+  transition: 0.5s;
+}
+
+.but-on:hover{
+  background: transparent;
+  color: rgb(9, 93, 172);
+  box-shadow: none;
+}
+
+.content-info .social-media{
+  margin-left: 20px;
+}
+
+.content-info .social-media a{
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid rgb(9, 93, 172);
+  border-radius: 50%;
+  font-size: 20px;
+  color: rgb(9, 93, 172);
+  margin:  0 8px;
+  transition: 0.5s;
+}
+
+.content-info .social-media a:hover{
+  background: rgb(9, 93, 172);
+  color: #1f242d;
+  box-shadow: 0 0  10px;
 }
