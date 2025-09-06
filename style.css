@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Libre Baskerville", serif;
+  align-items: center;
 }
 
 body{
@@ -48,9 +49,21 @@ a{
   font-weight: 500;
   transition: 0.5s;
 }
-.navbar ul li a:hover,
-.navbar ul li.active a{
-  color: rgb(9, 93, 172);
+.navbar ul li a:hover{
+  color: #00bcd4;
+}
+
+.profile-picture{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.profile-picture img{
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  border-radius: 150px;
+  position: sticky;
 }
 
 .content{
@@ -61,13 +74,18 @@ a{
   color: white;
 }
 
+.content-info{
+  margin-bottom: 300px;
+}
+
 .content-info h1{
   font-size: 55px;
 }
 
 .content-info h2{
   font-size: 32px;
-  margin-top: -10px;
+  margin-top: 10px;
+  color: #00bcd4;
 }
 
 .content-info p{
@@ -83,10 +101,10 @@ a{
 .but-on{
   display: inline-block;
   padding: 10px 30px;
-  background: rgb(9, 93, 172);
-  border: 2px solid rgb(9, 93, 172);
+  background: #00bcd4;
+  border: 2px solid #00bcd4;
   border-radius: 40px;
-  box-shadow: 0 0  10px rgb(9, 93, 172);
+  box-shadow: 0 0  10px #00bcd4;
   font-size: 16px;
   font-weight: 600;
   color: #1f242d;
@@ -95,7 +113,7 @@ a{
 
 .but-on:hover{
   background: transparent;
-  color: rgb(9, 93, 172);
+  color: #00bcd4;
   box-shadow: none;
 }
 
@@ -106,16 +124,16 @@ a{
 .content-info .social-media a{
   display: inline-flex;
   padding: 8px;
-  border: 2px solid rgb(9, 93, 172);
+  border: 2px solid #00bcd4;
   border-radius: 50%;
   font-size: 20px;
-  color: rgb(9, 93, 172);
+  color: #00bcd4;
   margin:  0 8px;
   transition: 0.5s;
 }
 
 .content-info .social-media a:hover{
-  background: rgb(9, 93, 172);
+  background: #00bcd4;
   color: #1f242d;
   box-shadow: 0 0  10px;
 }
