@@ -142,7 +142,37 @@ a{
   align-items: center;
 }
 
-.skills h1{
-  color: white;
+.skills h2{
+  color: #149c9e;
   margin: 20px;
+  text-decoration: underline;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.skills p{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skills details{
+  margin-top: 10px;
+  cursor: pointer;
+  color: #00bcd4;
+  font-size: 16px;
+}
+
+.skills .summary-skills{
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.skills-list{
+  list-style: lower-roman;
+  margin-left: 20px;
+  padding-left: 20px;
+  color: white;
 }
