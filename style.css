@@ -191,3 +191,27 @@ a{
   padding-left: 20px;
   color: white;
 }
+
+.footer {
+  background-color: #14171f;
+  padding: 20px 9%;
+  color: #ccc;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #00bcd4;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #1f242d;
+  background-color: #00bcd4;
+  padding: 3px 7px;
+  border-radius: 4px;
+}
