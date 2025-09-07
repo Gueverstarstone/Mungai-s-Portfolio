@@ -2,13 +2,13 @@
   Mungai's Portfolio website.
 
 ## Description
-  This project talks about Mungai's and skills he posseses regarding tech.
+  This project talks about Mungai and skills he posseses regarding tech.
 
 ## Setup and installations
-  Clone Project to your machine
-  Run npm install
-  Install all the requirements and dependancies
-  Access the live site using the local host provided
+  1. Clone Project to your machine
+  2. Run npm install
+  3. Install all the requirements and dependancies
+  4. Access the live site using the local host provided
 
 ## Technologies used
   HTML and CSS
