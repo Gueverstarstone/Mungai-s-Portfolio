@@ -215,3 +215,98 @@ a{
   padding: 3px 7px;
   border-radius: 4px;
 }
+
+
+/* tablet/laptop */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 5%;
+  }
+
+  .content-info h1 {
+    font-size: 42px;
+  }
+
+  .content-info h2 {
+    font-size: 24px;
+  }
+}
+
+/* tablet/large phones */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 5%;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .profile-picture {
+    margin-top: 140px;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .content-info h1 {
+    font-size: 36px;
+  }
+
+  .content-info h2 {
+    font-size: 22px;
+  }
+
+  .but-on {
+    width: 100%;
+  }
+
+  .skills h2 {
+    font-size: 24px;
+  }
+
+  .skills p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 15px 5%;
+  }
+}
+
+/* small phones */
+@media (max-width: 480px) {
+  .navbar .logo {
+    font-size: 24px;
+  }
+
+  .content-info h1 {
+    font-size: 28px;
+  }
+
+  .content-info h2 {
+    font-size: 18px;
+  }
+
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-media a {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+}
