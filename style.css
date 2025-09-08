@@ -34,9 +34,6 @@ a{
 }
 
 .navbar{
-  background: rgba(31, 36, 45, 0.95);
-  backdrop-filter: blur(6px);
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -50,6 +47,7 @@ a{
 .navbar .logo{
   font-size: 30px;
   font-weight: bolder;
+  color: #00bcd4;
 }
 
 .navbar ul{
@@ -288,7 +286,7 @@ a{
 
   .content {
     flex-direction: column;
-    padding: 160px;
+    padding: 40px 20px;
     text-align: center;
   }
 
@@ -298,6 +296,11 @@ a{
 
   .content-info h2 {
     font-size: 22px;
+  }
+
+  .content-info p {
+    font-size: 14px;
+    line-height: 1.6; 
   }
 
   .but-on {
@@ -331,8 +334,12 @@ a{
     font-size: 24px;
   }
 
+  .content {
+    padding: 30px 15px;
+  }
+
   .content-info h1 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.2;
   }
 
@@ -341,7 +348,7 @@ a{
   }
 
    .content-info p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .profile-picture img {
