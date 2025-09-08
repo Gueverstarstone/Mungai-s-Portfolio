@@ -154,6 +154,7 @@ a{
 .skills{
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
 }
 
@@ -191,6 +192,28 @@ a{
   padding-left: 20px;
   color: white;
 }
+
+.cta-bottom {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 40px;
+  background-color: #149c9e;
+  border: 2px solid #149c9e;
+  border-radius: 40px;
+  box-shadow: 0 0 15px #149c9e;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-bottom:hover {
+  background-color: transparent;
+  color: #149c9e;
+  box-shadow: none;
+}
+
 
 .footer {
   background-color: #14171f;
@@ -281,6 +304,12 @@ a{
   .skills p {
     font-size: 14px;
     padding: 0 10px;
+  }
+
+  .cta-bottom {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
   }
 
   .footer {
